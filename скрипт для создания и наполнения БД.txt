@@ -1,0 +1,14 @@
+CREATE TABLE `test`.`User` (
+  `id` INT(8) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(25) NULL,
+  `age` INT NULL,
+  `isAdmin` BIT(1) NULL,
+  `createdDate` TIMESTAMP(6) NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `test`.`user` (`name`, `age`, `isAdmin`, `createdDate`) VALUES ('Amigo', '21', b'1', '2013-08-05 18:19:03');
+INSERT INTO `test`.`user` (`name`, `age`, `isAdmin`, `createdDate`) VALUES ('Hulio', '28', b'0', '2013-08-05 18:19:03');
+INSERT INTO `test`.`user` (`name`, `age`, `isAdmin`, `createdDate`) VALUES ('Diana', '28', b'0', '2013-08-05 18:19:03');
+INSERT INTO `test`.`user` (`name`, `age`, `isAdmin`, `createdDate`) VALUES ('Diego', '44', b'0', '2013-08-05 18:19:03');
+INSERT INTO `test`.`user` (`name`, `age`, `isAdmin`, `createdDate`) VALUES ('Kim', '25', b'0', '2013-08-05 18:19:03');
+INSERT INTO `test`.`user` (`name`, `age`, `isAdmin`, `createdDate`) VALUES ('Elly', '26', b'0', '2013-08-05 18:19:03');
